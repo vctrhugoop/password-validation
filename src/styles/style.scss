@@ -82,13 +82,13 @@ body {
             margin-left: 12px;
             color: #333333;
           }
-        }
-        li.valid i {
-          font-size: 1.2rem;
-          color: #4285f4;
-        }
-        li.valid span {
-          color: #999999;
+          &.valid i {
+            font-size: 1.2rem;
+            color: #4285f4;
+          }
+          &.valid span {
+            color: #999999;
+          }
         }
       }
     }
