@@ -78,19 +78,17 @@ body {
             font-size: 0.6rem;
           }
 
-          .valid i {
-            font-size: 1.2rem;
-            color: #4285f4;
-          }
-
           span {
             margin-left: 12px;
             color: #333333;
           }
-
-          .valid span {
-            color: #999999;
-          }
+        }
+        li.valid i {
+          font-size: 1.2rem;
+          color: #4285f4;
+        }
+        li.valid span {
+          color: #999999;
         }
       }
     }

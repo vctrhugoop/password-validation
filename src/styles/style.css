@@ -67,15 +67,15 @@ body .wrapper .content .requirement-list li i {
   color: #aaaaaa;
   font-size: 0.6rem;
 }
-body .wrapper .content .requirement-list li .valid i {
-  font-size: 1.2rem;
-  color: #4285f4;
-}
 body .wrapper .content .requirement-list li span {
   margin-left: 12px;
   color: #333333;
 }
-body .wrapper .content .requirement-list li .valid span {
+body .wrapper .content .requirement-list li.valid i {
+  font-size: 1.2rem;
+  color: #4285f4;
+}
+body .wrapper .content .requirement-list li.valid span {
   color: #999999;
 }
 body .footer-content {
