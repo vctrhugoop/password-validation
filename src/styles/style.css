@@ -1,1 +1,81 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  min-height: 100vh;
+  background-color: #11131e;
+}
+body .wrapper {
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  padding: 28px;
+}
+body .wrapper .pass-field {
+  height: 40px;
+  width: 100%;
+  position: relative;
+}
+body .wrapper .pass-field input {
+  width: 100%;
+  height: 100%;
+  outline: none;
+  padding: 0 18px;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  border: 1px solid #999999;
+}
+body .wrapper .pass-field input:focus {
+  padding: 0 16px;
+  border: 2px solid #4285f4;
+}
+body .wrapper .pass-field i {
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  font-size: 1.2rem;
+  color: #999999;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+body .wrapper .content {
+  margin: 20px 0 10px;
+}
+body .wrapper .content p {
+  color: #333333;
+}
+body .wrapper .content .requirement-list {
+  margin-top: 20px;
+}
+body .wrapper .content .requirement-list li {
+  font-size: 1.3rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+body .wrapper .content .requirement-list li i {
+  width: 20px;
+  color: #aaaaaa;
+  font-size: 0.6rem;
+}
+body .wrapper .content .requirement-list li .valid i {
+  font-size: 1.2rem;
+  color: #4285f4;
+}
+body .wrapper .content .requirement-list li span {
+  margin-left: 12px;
+  color: #333333;
+}
+body .wrapper .content .requirement-list li .valid span {
+  color: #999999;
+}/*# sourceMappingURL=style.css.map */
