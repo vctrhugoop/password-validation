@@ -78,4 +78,17 @@ body .wrapper .content .requirement-list li span {
 }
 body .wrapper .content .requirement-list li .valid span {
   color: #999999;
+}
+body .footer-content {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 40px;
+}
+body .footer-content span {
+  font-size: 1.3rem;
+  color: #999999;
+}
+body .footer-content a {
+  text-decoration: none;
+  color: #4285f4;
 }/*# sourceMappingURL=style.css.map */

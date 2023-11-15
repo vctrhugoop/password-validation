@@ -97,4 +97,20 @@ body {
       }
     }
   }
+
+  .footer-content {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 40px;
+
+    span {
+      font-size: 1.3rem;
+      color: #999999;
+    }
+
+    a {
+      text-decoration: none;
+      color: #4285f4;
+    }
+  }
 }
