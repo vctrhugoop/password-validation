@@ -13,6 +13,7 @@ body {
   position: relative;
   min-height: 100vh;
   background-color: #11131e;
+  padding-inline: 20px;
 }
 body .wrapper {
   border-radius: 8px;
@@ -30,7 +31,6 @@ body .wrapper .pass-field input {
   height: 100%;
   outline: none;
   padding: 0 18px;
-  font-size: 1.3rem;
   border-radius: 5px;
   border: 1px solid #999999;
 }
@@ -57,7 +57,6 @@ body .wrapper .content .requirement-list {
   margin-top: 20px;
 }
 body .wrapper .content .requirement-list li {
-  font-size: 1.3rem;
   list-style: none;
   display: flex;
   align-items: center;
@@ -85,7 +84,6 @@ body .footer-content {
   margin-bottom: 40px;
 }
 body .footer-content span {
-  font-size: 1.3rem;
   color: #999999;
 }
 body .footer-content a {
